@@ -177,13 +177,14 @@ else{
 //18  true     => you can drive
 //18  false    => buy own car or rent a car or ask your friend car
 //16  false    => you can not drive because you are small and you dont have car
-const age = 18
-const owncare = false
+const age = 34
+console.log(false<=18)
+const owncare = true
 if(age<18 &&owncare){
     console.log("you can drive with your dad")
-}else if(age<=18 &&  owncare){
+}else if(age>=18&& owncare){
     console.log("you can drive")
-}else if(age>=18 && !owncare){
+}else if( age>=18 && !owncare){
     console.log("buy own car or rent a car or ask your friend car")
 }else {
     console.log("you can not drive because you are small and you dont have car")
