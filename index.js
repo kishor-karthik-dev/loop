@@ -374,6 +374,28 @@ if(a<b){
 // Percentage >= 60% : Grade D
 // Percentage >= 40% : Grade E
 // Percentage < 40% : Grade F
+
+const a= 40     //Physics
+const b= 40   //Chemistry
+const c= 30     //Biology
+const d= 40  //Mathematics
+const e= 40      // Computer
+const f= a+b+c+d+e //total
+const g= f/5       //presentage
+console.log(g)
+if(g>=90){
+    console.log("Grade A")
+}else if(g>=80){
+    console.log("Grade B")
+}else if(g>=70){
+    console.log("Grade c")
+}else if(g>=60){
+    console.log("Grade d")
+}else if(g>=40){
+    console.log("Grade e")
+}else {
+     console.log("Grade f")
+}
 // Write a C program to input basic salary of an employee and calculate its Gross salary according to following:
 // Basic Salary <= 10000 : HRA = 20%, DA = 80%
 // Basic Salary <= 20000 : HRA = 25%, DA = 90%
@@ -384,3 +406,16 @@ if(a<b){
 // For next 100 units Rs. 1.20/unit
 // For unit above 250 Rs. 1.50/unit
 // An additional surcharge of 20% is added to the bill
+
+const unit =99
+if(unit<=50){
+    console.log("first",unit/0.50)
+}else if(unit<100){
+    console.log( "secound",unit/0.75)
+    
+}else if(unit<=100){
+    console.log( "third",unit/1.20)
+} else if(unit<=250){
+    console.log( "fourth",unit/1.50)
+}
+// 50 
